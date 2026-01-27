@@ -9,7 +9,8 @@ fn main() {
     basics::basics();
     println!();
     stuff::collections();
-    stuff::error_handling();
+    stuff::lifetimes();
     println!();
+    stuff::error_handling();
     guessgame::guess_game();
 }
