@@ -12,6 +12,10 @@ pub fn intmut() {
 
     let a = Rc::new(Cons(Rc::clone(&value), Rc::new(Nil)));
     println!("a before = {a:?}");
+    match *a {
+        Cons(ref v, ref tail) => println!("a value = {v:?}, tail = {tail:?}"),
+        Nil => println!("a is Nil"),
+    }
 
     let b = Cons(Rc::new(RefCell::new(3)), Rc::clone(&a));
     let c = Cons(Rc::new(RefCell::new(4)), Rc::clone(&a));
