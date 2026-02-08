@@ -7,3 +7,4 @@ edition = "2024"
 basics = { path = "../basics" }
 myutils = { path = "../myutils" }
 guessgame = { path = "../guessgame" }
+intmut = { path = "../intmut" }

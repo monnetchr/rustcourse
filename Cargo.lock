@@ -27,6 +27,7 @@ version = "0.1.0"
 dependencies = [
  "basics",
  "guessgame",
+ "intmut",
  "myutils",
 ]
 
@@ -49,6 +50,10 @@ dependencies = [
  "colored",
  "rand",
 ]
+
+[[package]]
+name = "intmut"
+version = "0.1.0"
 
 [[package]]
 name = "libc"
