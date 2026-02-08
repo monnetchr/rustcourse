@@ -1,4 +1,4 @@
-use rustcourse::myutils;
+use myutils;
 
 #[cfg(test)]
 mod tests {

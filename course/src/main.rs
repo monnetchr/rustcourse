@@ -1,7 +1,7 @@
-mod guessgame;
-mod basics;
-use rustcourse::myutils::stuff;
-use rustcourse::myutils::testing;
+use basics;
+use myutils::stuff;
+use myutils::testing;
+use guessgame;
 
 fn main() {
     basics::basics();
