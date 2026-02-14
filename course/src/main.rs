@@ -13,4 +13,5 @@ fn main() {
     //stuff::error_handling();
     //guessgame::guess_game();
     intmut::intmut();
+    intmut::weakrefs();
 }
