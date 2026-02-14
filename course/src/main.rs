@@ -2,7 +2,7 @@ use basics;
 use myutils::stuff;
 use myutils::testing;
 //use guessgame
-use paral;
+use paral::threads;
 
 fn main() {
     basics::basics();
@@ -15,5 +15,5 @@ fn main() {
     //guessgame::guess_game();
     intmut::intmut();
     intmut::weakrefs();
-    paral::threads();
+    threads::demo();
 }
