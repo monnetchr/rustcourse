@@ -14,7 +14,7 @@ pub fn demo() {
         ];
         for val in vals {
             tx.send(val).unwrap();
-            thread::sleep(std::time::Duration::from_secs(1));
+            thread::sleep(std::time::Duration::from_secs_f32(0.1));
         }
     });
 
@@ -27,7 +27,7 @@ pub fn demo() {
         ];
         for val in vals {
             tx2.send(val).unwrap();
-            thread::sleep(std::time::Duration::from_secs(1));
+            thread::sleep(std::time::Duration::from_secs_f32(0.1));
         }
     });
 

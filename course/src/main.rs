@@ -3,6 +3,7 @@ use myutils::stuff;
 use myutils::testing;
 //use guessgame
 use paral::channels;
+use paral::mutex;
 use paral::threads;
 
 fn main() {
@@ -18,4 +19,5 @@ fn main() {
     intmut::weakrefs();
     threads::demo();
     channels::demo();
+    mutex::demo();
 }
