@@ -8,3 +8,4 @@ basics = { path = "../basics" }
 myutils = { path = "../myutils" }
 guessgame = { path = "../guessgame" }
 intmut = { path = "../intmut" }
+paral = { path = "../paral" }
