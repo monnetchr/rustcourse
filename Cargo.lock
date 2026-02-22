@@ -30,6 +30,7 @@ dependencies = [
  "intmut",
  "myutils",
  "paral",
+ "statedesign",
 ]
 
 [[package]]
@@ -131,6 +132,10 @@ checksum = "76afc826de14238e6e8c374ddcc1fa19e374fd8dd986b0d2af0d02377261d83c"
 dependencies = [
  "getrandom",
 ]
+
+[[package]]
+name = "statedesign"
+version = "0.1.0"
 
 [[package]]
 name = "syn"

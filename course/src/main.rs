@@ -5,6 +5,7 @@ use myutils::testing;
 use paral::channels;
 use paral::mutex;
 use paral::threads;
+use statedesign;
 
 fn main() {
     basics::basics();
@@ -20,4 +21,6 @@ fn main() {
     threads::demo();
     channels::demo();
     mutex::demo();
+    statedesign::demo();
+    statedesign::demo2();
 }
